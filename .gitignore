@@ -1,0 +1,51 @@
+# Logs
+*.log
+logstash/logs/
+*.out
+*.err
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+.env
+docker_data/
+*.pid
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python (if you use scripts or tools)
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+*.env
+
+# IDE-specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Elasticsearch and Logstash
+elasticsearch_data/
+logstash/plugins/
+logstash/data/
+logstash/pipeline/logstash.conf.bak
+logstash/sincedb/
+
+# Kibana
+kibana/node_modules/
+kibana/optimize/
+kibana/plugins/
+
+# Temporary or Backup Files
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+
