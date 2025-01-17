@@ -20,7 +20,7 @@ services:
     volumes:
       - ./logstash:/usr/share/logstash/pipeline
     ports:
-      - "5000:5000"
+      - "5044:5044"    # Changed from 5000 to 5044
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.17.12
