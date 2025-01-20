@@ -1,4 +1,4 @@
-version: "2.2"  # Use a valid Compose file version
+version: "2"  # Use a valid Compose file version
 
 services:
   elasticsearch:
