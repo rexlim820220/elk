@@ -1,0 +1,10 @@
+ELK Stack is now deployed!
+
+Kibana URL:
+http://<cluster-ip>:5601
+
+Elasticsearch URL:
+http://<cluster-ip>:9200
+
+Logstash is listening on port 5044.
+

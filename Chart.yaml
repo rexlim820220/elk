@@ -1,0 +1,7 @@
+apiVersion: v2
+name: elk
+description: A Helm chart for deploying an ELK Stack
+type: application
+version: 1.0.0
+appVersion: "7.17.12"
+

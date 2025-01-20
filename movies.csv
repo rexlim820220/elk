@@ -1,0 +1,12 @@
+Title,Year,Genre,Rating,Votes,Revenue_M,Director,Timestamp,Country,Budget_M,BoxOfficeSuccess
+"The Shawshank Redemption",1994,"Drama",9.3,2345119,28.34,"Frank Darabont","1994-10-14T00:00:00","USA",25.00,"High"
+"The Dark Knight",2008,"Action, Crime",9.0,2548943,1004.56,"Christopher Nolan","2008-07-18T00:00:00","USA",185.00,"Blockbuster"
+"Forrest Gump",1994,"Drama, Romance",8.8,2106025,678.22,"Robert Zemeckis","1994-07-06T00:00:00","USA",55.00,"Blockbuster"
+"Inception",2010,"Action, Sci-Fi",8.8,2310507,837.53,"Christopher Nolan","2010-07-16T00:00:00","USA",160.00,"Blockbuster"
+"Fight Club",1999,"Drama",8.8,1994797,101.21,"David Fincher","1999-10-15T00:00:00","USA",63.00,"Moderate"
+"Parasite",2019,"Drama, Thriller",8.6,871423,258.95,"Bong Joon-ho","2019-05-30T00:00:00","South Korea",11.00,"Blockbuster"
+"Spirited Away",2001,"Animation, Fantasy",8.6,764926,383.40,"Hayao Miyazaki","2001-07-20T00:00:00","Japan",19.00,"Blockbuster"
+"The Godfather",1972,"Crime, Drama",9.2,1781081,134.97,"Francis Ford Coppola","1972-03-24T00:00:00","USA",6.00,"Classic"
+"Interstellar",2014,"Adventure, Drama",8.6,1755190,696.47,"Christopher Nolan","2014-11-05T00:00:00","USA",165.00,"Blockbuster"
+"Avengers: Endgame",2019,"Action, Sci-Fi",8.4,1058573,2797.80,"Anthony and Joe Russo","2019-04-26T00:00:00","USA",356.00,"Blockbuster"
+

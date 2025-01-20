@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yml
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: logstash
+  name: logstash
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: logstash
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yml
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: logstash
+    spec:
+      containers:
+      - image: docker.elastic.co/logstash/logstash:7.17.12
+        imagePullPolicy: ""
+        name: logstash
+        ports:
+        - containerPort: 5044
+        resources: {}
+        volumeMounts:
+        - mountPath: /usr/share/logstash/pipeline
+          name: logstash-claim0
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes:
+      - name: logstash-claim0
+        persistentVolumeClaim:
+          claimName: logstash-claim0
+status: {}
